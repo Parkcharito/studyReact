@@ -1,8 +1,4 @@
 # React 내용정리
-
-
-<details>
-    <summary> React 내용정리 (자세히)</summary>
     
     실시간으로 코딩 한 소스들 확인하는 법
     Terminal에서 NewTerminal클릭 한 후 밑에 입력창에 npm start 입력한다
@@ -19,6 +15,7 @@
     - 변경함수(대체할 데이터)
 
     state는 직접 건들지말고 deep copy해서 그걸 건드려야함
+        
     ex)	
 
     `var newArray = [...글제목];   ([...] 신문법임 그냥 '글제목'카피하면 값공유만 하게됨)
@@ -39,7 +36,7 @@
   
       ex)
 
-      `function Modal(){
+      function Modal(){
       return (
         <div className="modal">
             <h2>제목</h2>
@@ -47,7 +44,7 @@
             <p>상세내용</p>
           </div>
         )
-      }`
+      }
       
       
         ####유의사항
@@ -74,4 +71,4 @@
 
         결과값 [4,6,8]이 나오게 된다 파라미터 a가 array안에 값들이다(반복문이랑 유사)
         
-</details>
+
