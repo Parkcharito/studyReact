@@ -30,6 +30,7 @@ ex)
 
 
 Component 사용법과 유의사항
+
 사용법
 
 해당 태그를 '사용자 지정'함수로 묶어 사용가능 (App() 태그 밖에다 만든다. App()도 하나의 펑션이기 때문이다)
@@ -63,11 +64,12 @@ ex)
 
 ### map()함수 사용법
 
- `var array = [2,3,4];
+     `var array = [2,3,4];
 
-  var newArray = array.map(function(a){
-    return a * 2
-  });`
+      var newArray = array.map(function(a){
+        return a * 2
+      });`
+
 
 결과값 [4,6,8]이 나오게 된다 파라미터 a가 array안에 값들이다(반복문이랑 유사)
         
