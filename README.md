@@ -3,7 +3,8 @@
 실시간으로 코딩 한 소스들 확인하는 법
 Terminal에서 NewTerminal클릭 한 후 밑에 입력창에 npm start 입력한다
 
-state
+### state
+
 state 변수로 저장하고 사용할 시 변경된 점이 있다면 자동 렌더링이 된다 마치 Ajax처럼 스무스하게 홈페이지 이동이 가능하다 
 <Array, Object state데이터 수정 방법>
 
@@ -22,7 +23,7 @@ ex)
         newArray[0] = '여자코트 추천';
         글제목변경( newArray );`
 
-순서정리
+#### 순서정리
 
 1. 일단 기존 state카피본 만들고
 2. 카피본에 수정사항 반영하고
@@ -30,7 +31,7 @@ ex)
 
 
 
-Component 사용법과 유의사항
+### Component 사용법과 유의사항
 
 사용법
 
