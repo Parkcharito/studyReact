@@ -93,6 +93,16 @@ ex)
 
 ex) 
 
-    import name from './data.js';       
+    import name from './data.js';  
+    
+#### 내보낼 변수가 많다면?! 
+
+ex)
+ 
+    var name = "Kim";
+    var name2 = "Kim2";
+
+    export {name, name2}
+    import {name, name2} from './data.js';
         
 
