@@ -71,12 +71,12 @@ ex)
 
      `var array = [2,3,4];
 
-      var newArray = array.map(function(a){
+      var newArray = array.map(function(a,i){
         return a * 2
       });`
 
 
-결과값 [4,6,8]이 나오게 된다 파라미터 a가 array안에 값들이다(반복문이랑 유사)
+결과값 [4,6,8]이 나오게 된다 파라미터 a가 array안에 값들이다(반복문이랑 유사) i는 값들의 인덱스 값이다 0,1,2
         
         
 
