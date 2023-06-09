@@ -77,6 +77,20 @@ ex)
 
 
 결과값 [4,6,8]이 나오게 된다 파라미터 a가 array안에 값들이다(반복문이랑 유사) i는 값들의 인덱스 값이다 0,1,2
-        
+
+
+### 파일 쪼갤 때 활용하는 import / export
+
+내보내기 : export default 변수명
+
+ex) 
+    var name = "Kim";
+    export default name
+
+
+가져오기 : import 변수명 from 경로
+
+ex) 
+    import name from './data.js';       
         
 
