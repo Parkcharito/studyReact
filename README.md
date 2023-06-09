@@ -81,16 +81,18 @@ ex)
 
 ### 파일 쪼갤 때 활용하는 import / export
 
-내보내기 : export default 변수명
+#### 내보내기 : export default 변수명
 
 ex) 
+
     var name = "Kim";
     export default name
 
 
-가져오기 : import 변수명 from 경로
+#### 가져오기 : import 변수명 from 경로
 
 ex) 
+
     import name from './data.js';       
         
 
