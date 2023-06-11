@@ -3,7 +3,7 @@
 
 # React 내용정리
     
-실시간으로 코딩 한 소스들 확인하는 법
+### 실시간으로 코딩 한 소스들 확인하는 법
 
 Terminal에서 NewTerminal클릭 한 후 밑에 입력창에 npm start 입력한다
 
